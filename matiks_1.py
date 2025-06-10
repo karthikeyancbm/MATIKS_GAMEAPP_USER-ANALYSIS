@@ -336,6 +336,8 @@ weekday_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturd
 df['Day']= pd.Categorical(df['Day'], categories=weekday_order, ordered=True)
 df = df.sort_values('Day').reset_index(drop=True)
 
+st._config.set_option('theme.base','dark')
+
 st.set_page_config(layout='wide')
 title_text = '''<h1 style='font-size: 55px;text-align: center;color:purple;background-color: lightgrey;'>Matiks - User Analysis</h1>'''
 st.markdown(title_text, unsafe_allow_html=True)
