@@ -46,3 +46,6 @@ It involves the following steps:
 * Develop interactive GUI using streamlit.
 * create an input field where the user can enter each column value except target variable.
 
+**Render Web Address:**
+  * https://matiks-gameapp-user-analysis-1.onrender.com/
+
